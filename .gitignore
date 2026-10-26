@@ -1,0 +1,32 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*password*
+
+# Router and firewall backups or raw exports
+*.backup
+*.bak
+*.private
+*.conf
+*.rsc
+
+# Packet captures and logs
+*.pcap
+*.pcapng
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+
